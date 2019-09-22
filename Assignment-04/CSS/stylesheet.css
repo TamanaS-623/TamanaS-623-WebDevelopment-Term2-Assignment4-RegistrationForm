@@ -1,0 +1,86 @@
+/*
+Student Name: Tamana Seddiqi
+Student ID : 991528861
+Date: 2019/02/16
+*/
+
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeIA6m8j4LahOc7IoiMlR6Te8Atxru7RKQQyXlR8CBKdT0n0pG");
+  box-sizing: border-box;
+  background-color: #aabb34;
+  font-size: 14px;
+}
+
+form{
+  width:40%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #aabbaa;
+  background-color:#abcabc ;
+  border-radius: 0px 0px 10px 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: #aa30ff;
+  font-size: 15px;
+}
+
+.box{
+  opacity: 0.9;
+}
+
+#passwordNote{
+  color: #a00a0a;
+}
+
+legend{
+  font-size: 20px;
+  color: #123456;
+  text-align: center;
+}
+
+#progress{
+  width: 80%;
+  height: 25px;
+  margin-top: 10px;
+  background-color: #aabb11;
+}
+
+input{
+  height: 20px;
+  width: 87%;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+#submit{
+  padding: 5px 0px 5px 0px;
+  color: white;
+  background-color: green;
+  width :30%;
+  height: auto;
+}
+
+#reset{
+  padding: 5px 0px 5px 0px;
+  color: white;
+  background-color: #aa4a4a;
+  width: 30%;
+  height: auto;
+}
+
+#genderMale, #genderFemale, #genderOther{
+  width: 4%;
+  text-align: center;
+  margin-right: 20px auto;
+}
+
+#radioButton, #button{
+  text-align: center;
+}
+
+#status{
+  font-size: 20px;
+}

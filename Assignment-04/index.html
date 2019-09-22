@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Student Name: Tamana Seddiqi
+Student ID : 991528861
+Date: 2019/02/16
+ -->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment-04 for Tamana Seddiqi</title>
+    <link href="CSS/stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="js/js.js"></script>
+  </head>
+
+  <body>
+    <div class="box">
+      <form action="thank_you.html" onsubmit= "return validateTheForm()">
+        <fieldset>
+          <legend> Registration Form </legend>
+
+          <div>
+            <label>Username: </label>
+            <input id = "username" type="text" name="username" value="" autocomplete="off" placeholder="Enter here..."onfocusout="Username()" ><span id = "emoji1"> </span>
+            <p id = "username_error"></p><br>
+          </div>
+
+          <div>
+            <label>Password: </label>
+            <input id = "password" type="password" name="password" value="" autocomplete="off" placeholder="Enter here..." onkeypress="ProgressBar()"  onfocusout="Password()"><span id = "emoji2"> </span><br />
+            <span id ="passwordNote">To build a strong password, please use a combination of (A-Z), (a-z), (0-9) and minimum of 10 characters.</span><br />
+            <progress id = "progress" value = "0" max = "100" ></progress> <span id = "status"></span>
+            <p id = "password_error"></p><br>
+          </div>
+
+          <div>
+            <label>Confirm password: </label>
+            <input id = "confirmPassword" type="password" name="confirm password" value="" autocomplete="off" placeholder="Enter here..."  onfocusout="ConfirmPassword()"><span id = "emoji3"> </span>
+            <p id = "confirmPassword_error"></p><br>
+          </div>
+
+          <div id ="radioButton">
+            <label>Gender: </label>
+            <input id = "genderMale" type="radio" name="gender" value="male"onblur="Gender()" >Male
+            <input id = "genderFemale" type="radio" name="gender" value="femala"onblur="Gender()">Female
+            <input id = "genderOther" type="radio" name="gender" value="other"onblur="Gender()">Other<span id = "emoji4"> </span>
+            <p id = "gender_error"></p>
+          </div>
+
+          <div>
+            <label>Email: </label>
+            <input id = "email" type="text" name="email" value="" autocomplete="off" placeholder="Enter here..."  onfocusout="Email()"> <span id = "emoji5"></span>
+            <p id = "email_error"></p><br>
+          </div>
+
+          <div>
+            <label>Contact Number: </label>
+            <input id="contactNumber" type="text" name="contactNumber" value=""autocomplete="off" placeholder="Enter here..." onfocusout="Contact()"/><span id = "emoji6"> </span>
+            <p id = "contactNumber_error"></p>
+          </div>
+
+          <div id = "button">
+            <input id = "submit" type="submit" name="submit">
+            <input id = "reset" type="reset" name="reset" onclick="onReset()" />
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
